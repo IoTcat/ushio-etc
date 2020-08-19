@@ -1,9 +1,10 @@
 #!/bin/bash
 chmod +x /etc/rc.d/rc.local
-for fileName in $(ls $(dirname $0)/init.d)
+cd $(dirname $0)
+for fileName in $(ls ./init.d)
 do
-    if [ ! -d $(dirname $0)/init.d/$fileName  ]; then
-        echo sh $fileName>>/etc/rc.d/rc.local
+    if [ ! -d $(pwd)/init.d/$fileName  ]; then
+        echo sh $(pwd)/init.d/$fileName>>/etc/rc.d/rc.local
     fi
 done
 
