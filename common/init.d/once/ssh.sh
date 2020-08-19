@@ -10,6 +10,7 @@ ln -s /mnt/etc/common/hosts/hosts.deny /etc/hosts.deny
 sleep 15s
 sed -i '/'$(hostname)'/d' /mnt/config/ssh/authorized_keys
 cat /root/.ssh/id_rsa.pub>>/mnt/config/ssh/authorized_keys
+cd /mnt/config
 git add . -A
 git commit -m "ssh by $(hostname)"
 git push
