@@ -1,6 +1,8 @@
 #!/bin/bash
 if [ ! -d /share  ];then
     mkdir /share
+else
+    umount /share
 fi
 cd $(dirname $0)
 chmod 600 $(pwd)/../../../config/token/huaweicloud/ask
