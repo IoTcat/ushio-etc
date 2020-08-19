@@ -16,3 +16,5 @@ sshd:111.161.74.100:deny
 sshd:49.236.192.194:deny
 sshd:139.199.115.210:deny
 sshd:106.13.233.102:deny
+# DenyHosts: Thu Aug 20 01:01:35 2020 | sshd: 117.78.39.146
+sshd: 117.78.39.146
