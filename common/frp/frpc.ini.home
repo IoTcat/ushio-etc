@@ -22,3 +22,14 @@ custom_domains = docker.yimian.xyz
 type = https
 local_port = 443
 custom_domains = v-china.yimian.xyz
+
+[ushio_git]
+type = https
+local_port = 443
+custom_domains = git.yimian.xyz
+
+[ushio_git_ssh]
+type = tcp
+local_port = 222
+local_ip = 127.0.0.1
+remote_port = 4422
