@@ -20,3 +20,15 @@ sshd:106.13.233.102:deny
 sshd: 117.78.39.146
 # DenyHosts: Sat Aug 22 14:42:00 2020 | sshd: 211.76.55.12
 sshd: 211.76.55.12
+# DenyHosts: Thu Aug 27 07:06:43 2020 | sshd: 119.8.9.254
+sshd: 119.8.9.254
+# DenyHosts: Thu Aug 27 23:21:07 2020 | sshd: 60.249.71.19
+sshd: 60.249.71.19
+# DenyHosts: Fri Aug 28 05:30:28 2020 | sshd: 85.209.0.103
+sshd: 85.209.0.103
+# DenyHosts: Sun Aug 30 11:02:55 2020 | sshd: 122.112.133.182
+sshd: 122.112.133.182
+# DenyHosts: Mon Aug 31 23:31:26 2020 | sshd: 85.209.0.101
+sshd: 85.209.0.101
+# DenyHosts: Wed Sep  2 22:06:31 2020 | sshd: 85.209.0.100
+sshd: 85.209.0.100
