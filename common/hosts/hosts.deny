@@ -32,3 +32,7 @@ sshd: 122.112.133.182
 sshd: 85.209.0.101
 # DenyHosts: Wed Sep  2 22:06:31 2020 | sshd: 85.209.0.100
 sshd: 85.209.0.100
+# DenyHosts: Fri Sep  4 12:20:38 2020 | sshd: 85.209.0.102
+sshd: 85.209.0.102
+# DenyHosts: Fri Sep  4 16:34:52 2020 | sshd: 85.209.0.252
+sshd: 85.209.0.252
