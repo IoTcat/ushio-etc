@@ -33,3 +33,8 @@ type = tcp
 local_port = 222
 local_ip = 127.0.0.1
 remote_port = 4422
+
+[home_cups]
+type = http
+local_port = 631
+custom_domains = home-printer.yimian.xyz
