@@ -18,6 +18,13 @@ type = https
 local_port = 5000
 custom_domains = docker.yimian.xyz
 
+[docker_yimian2]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 5000
+remote_port = 4450
+
+
 [v_china]
 type = https
 local_port = 443
