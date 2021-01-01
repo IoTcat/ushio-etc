@@ -13,12 +13,18 @@ type = http
 local_port = 80
 custom_domains = home.yimian.xyz
 
+[web_home_tcp]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 8123
+remote_port = 8123
+
 [docker_yimian]
 type = https
 local_port = 5000
 custom_domains = docker.yimian.xyz
 
-[docker_yimian2]
+[docker_yimian_tcp]
 type = tcp
 local_ip = 127.0.0.1
 local_port = 5000
@@ -34,6 +40,12 @@ custom_domains = v-china.yimian.xyz
 type = https
 local_port = 443
 custom_domains = git.yimian.xyz
+
+[ushio_git_tcp]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 3000
+remote_port = 3000
 
 [ushio_git_ssh]
 type = tcp
