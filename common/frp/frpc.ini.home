@@ -47,6 +47,12 @@ local_ip = 127.0.0.1
 local_port = 3000
 remote_port = 3000
 
+[nextcloud]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 8888
+remote_port = 8888
+
 [ushio_git_ssh]
 type = tcp
 local_port = 222
